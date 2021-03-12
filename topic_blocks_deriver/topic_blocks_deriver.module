@@ -1,0 +1,19 @@
+<?php
+
+use Drupal\block\Entity\Block;
+
+/**
+ * Implements hook_entity_presave().
+ */
+
+function topic_blocks_deriver_entity_presave(Drupal\Core\Entity\EntityInterface $entity)
+{
+  if ($entity->bundle() == 'topics') {
+    // this code does not works
+    //Call to a member function setRegion() on null in topic_blocks_deriver_entity_presave()
+   /* $block = Block::load($entity->name->value);
+    $block->setRegion('content');
+    $block->save();*/
+
+  }
+}

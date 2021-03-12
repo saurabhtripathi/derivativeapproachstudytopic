@@ -1,0 +1,8 @@
+uuid: 43dc7966-11db-43dc-88b3-fa90a35bac50
+langcode: en
+status: true
+dependencies: {  }
+name: Topics
+vid: topics
+description: 'Defines study topics for Drupal Certifications'
+weight: 0
